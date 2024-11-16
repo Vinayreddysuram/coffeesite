@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Beverages Recipes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><i>Know More About Your Coffee And Tea !!!!</i></h1>
+    </header>
+    <main>
+        <div class="beverages">
+            <div class="beverage" onclick="showRecipe('espresso')">
+                <img src="images/espresso.jpg" alt="Espresso">
+                <button>Espresso</button>
+            </div>
+            <div class="beverage" onclick="showRecipe('americano')">
+                <img src="images/americano.jpg" alt="Americano">
+                <button>Americano</button>
+            </div>
+            <div class="beverage" onclick="showRecipe('latte')">
+                <img src="images/latte.jpg" alt="Latte">
+                <button>Latte</button>
+            </div>
+            <div class="beverage" onclick="showRecipe('brewed_coffee')">
+                <img src="images/brewed_coffee.jpg" alt="Brewed Coffee">
+                <button>Brewed Coffee</button>
+            </div>
+            <div class="beverage" onclick="showRecipe('steeped_tea')">
+                <img src="images/steeped_tea.jpg" alt="Steeped Tea">
+                <button>Steeped Tea</button>
+            </div>
+            <div class="beverage" onclick="showRecipe('tropical_green_tea')">
+                <img src="images/tropical_green_tea.jpg" alt="Tropical Green Tea">
+                <button>Tropical Green Tea</button>
+            </div>
+            <div class="beverage" onclick="showRecipe('mocha_latte')">
+                <img src="images/mocha_latte.jpg" alt="Mocha Latte">
+                <button>Mocha Latte</button>
+            </div>
+        </div>
+        <div id="recipe-section" class="recipe-section">
+            <h2 id="recipe-title"></h2>
+            <p id="recipe-text"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
